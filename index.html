@@ -242,7 +242,7 @@ canvas{display:block;position:fixed;inset:0}
     <button class="pBtn" onclick="togglePause()" title="Pause [ESC]"><span class="pIco"><i></i><i></i></span></button>
   </div>
   <div id="pwrConsole">
-    <div class="pcHead"><span>REACTOR <b>// TMO-7</b></span><span id="pcStat">DORMANT</span></div>
+    <div class="pcHead"><span>REACTOR <b>// HR-7</b></span><span id="pcStat">DORMANT</span></div>
     <div class="pcCore">
       <div class="pcRing">
         <svg viewBox="0 0 42 42"><circle cx="21" cy="21" r="18" class="rTrack"/><circle cx="21" cy="21" r="18" class="rFill" id="pwrRing"/></svg>
@@ -341,7 +341,7 @@ canvas{display:block;position:fixed;inset:0}
     <div class="tBtns" style="margin-top:14px;width:100%">
       <button class="btn cyan" onclick="closeLB()"><span>◀ BACK</span></button>
     </div>
-    <div style="margin-top:10px;font-family:'Share Tech Mono',monospace;font-size:8px;letter-spacing:2px;color:rgba(120,170,255,.4);text-align:center">HIGHRISE 2 · VOID EMPIRE · TMO TECHNOLOGIES</div>
+    <div style="margin-top:10px;font-family:'Share Tech Mono',monospace;font-size:8px;letter-spacing:2px;color:rgba(120,170,255,.4);text-align:center">HIGHRISE 2 · VOID EMPIRE · TUK TECHNOLOGIES</div>
   </div>
 </div>
 
@@ -1752,7 +1752,7 @@ async function openLB(){
   const ping=document.createElement('div');
   ping.style.cssText='text-align:center;margin-top:10px;font-family:Share Tech Mono,monospace;font-size:9px;letter-spacing:2px';
   ping.style.color=res.ok?'#40ff80':'#ff8844';
-  ping.textContent=res.ok?'🟢 LIVE · TMO SERVERS':'⚠ OFFLINE · LOCAL SCORES';
+  ping.textContent=res.ok?'🟢 LIVE · T-UndeadKnight SERVERS':'⚠ OFFLINE · LOCAL SCORES';
   list.appendChild(ping);
 }
 function closeLB(){
